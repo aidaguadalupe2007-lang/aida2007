@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function Pila() {
-  const [stack, setStack] = useState([]);
+  const [stack, setStack] = useState(["Dany","juan","pedro"]);
   const [inputValue, setInputValue] = useState("");
 
   // Agregar valores a la pila del arreglo
